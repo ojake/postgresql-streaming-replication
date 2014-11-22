@@ -30,9 +30,11 @@ This could be further automated to just have one script for master and one for s
 * Copy master.conf to conf.d on master host, and slave.conf on slave host.
 
     <span># on master</span>
+
     cp master.conf /etc/postgresql/9.3/main/conf.d/
 
     <span># on slave</span>
+
     cp slave.conf /etc/postgresql/9.3/main/conf.d/
 
 * Update config.sh with your values!
